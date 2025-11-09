@@ -4,8 +4,16 @@ import biokinLogo from "@/assets/biokin-logo.webp";
 import Team from "@/components/Team";
 import Partners from "@/components/Partners";
 import Footer from "@/components/Footer";
+import { usePageMetadata } from "@/hooks/usePageMetadata";
 
 const Contact = () => {
+  usePageMetadata({
+    title: "Prendre rendez-vous chez BIOKIN - Kinésithérapeutes à Bertrange",
+    description:
+      "Prenez rendez-vous chez BIOKIN, cabinet de kinésithérapie du sport à Bertrange. Choisissez votre praticien sur Doctolib ou contactez-nous au 00352 621 150 941.",
+    canonical: "https://www.biokin.lu/prendre-rendez-vous",
+  });
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

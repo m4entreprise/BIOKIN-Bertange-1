@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Activity, Users, Heart, Award, Columns, ClipboardCheck } from "lucide-react";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
+import { usePageMetadata } from "@/hooks/usePageMetadata";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -66,6 +67,13 @@ const faqs = [{
   answer: "Nous proposons principalement des consultations individuelles pour garantir une prise en charge personnalisée. Cependant, nous offrons également des séances de screening d'équipe pour les groupes sportifs."
 }];
 const AboutPage = () => {
+  usePageMetadata({
+    title: "À propos de BIOKIN - Kinésithérapie du sport à Bertrange",
+    description:
+      "Découvrez l'approche BIOKIN : kinésithérapie sportive basée sur les preuves, rééducation active et suivi personnalisé à Bertrange, Luxembourg.",
+    canonical: "https://www.biokin.lu/a-propos",
+  });
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

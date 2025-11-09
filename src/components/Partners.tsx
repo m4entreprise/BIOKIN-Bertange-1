@@ -1,7 +1,7 @@
 import partnerMonkine from "@/assets/partner-monkine.png";
 import partnerPhysioPro from "@/assets/partner-physiopro.png";
 import partnerKreate from "@/assets/partner-kreate.png";
-import partnerGarage from "@/assets/partner-garage.png";
+import partnerGarage from "@/assets/partner-garage.svg";
 import partnerM4 from "@/assets/partner-m4entreprise.svg";
 
 const partners = [

@@ -79,7 +79,7 @@ const About = () => {
               className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground rounded-full px-8"
               asChild
             >
-              <Link to="/about">
+              <Link to="/a-propos">
                 En savoir plus
               </Link>
             </Button>

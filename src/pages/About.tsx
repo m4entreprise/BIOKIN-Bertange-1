@@ -98,7 +98,7 @@ const AboutPage = () => {
                 active où chaque patient est acteur de sa guérison.
               </p>
               <Button size="lg" className="rounded-full" asChild>
-                <Link to="/contact">
+                <Link to="/prendre-rendez-vous">
                   Prendre rendez-vous
                 </Link>
               </Button>
